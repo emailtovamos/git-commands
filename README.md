@@ -1,5 +1,9 @@
 # git-commands
 
+- To create a new branch:
+
+  ```git checkout -b feature/test```
+
 - To undo a recent commit: 
 
   ```git reset HEAD^```
