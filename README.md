@@ -1,8 +1,28 @@
 # git-commands
 
-- To create a new branch:
+- To create a new branch and switch to that branch:
 
   ```git checkout -b feature/test```
+  
+- To switch to an already existing branch:
+
+  ```git checkout feature/test```
+  
+- To see remote origin:
+
+  ```git remote -v```
+  
+- To delete origin connection locally: 
+
+  ```git remote prune origin```
+  
+- To unset link between current branch and its upstream reference:
+
+  ```git branch --unset-upstream```
+  
+- To set upstream origin to be `xyz` and push to it: 
+
+  ```git push --set-upstream origin xyz```
 
 - To undo a recent commit: 
 
