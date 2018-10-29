@@ -1,5 +1,9 @@
 # git-commands
 
+- To see commit history:
+
+  ```git log```
+
 - To create a new branch and switch to that branch:
 
   ```git checkout -b feature/test```
@@ -23,6 +27,10 @@
 - To set upstream origin to be `xyz` and push to it: 
 
   ```git push --set-upstream origin xyz```
+  
+- To see manual about `X`:
+
+  ```git X --help```
 
 - To undo a recent commit: 
 
