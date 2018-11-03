@@ -1,5 +1,9 @@
 # git-commands
 
+- To start off in a folder: 
+
+  ```git init```
+
 - To see commit history:
 
   ```git log```
