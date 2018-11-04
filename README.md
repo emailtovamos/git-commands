@@ -22,9 +22,21 @@
 
   ```git checkout feature/test```
   
+- See all branches: 
+
+  ```git branch```
+  
 - To see remote origin:
 
   ```git remote -v```
+  
+- To connect local repository to remote server to push to: 
+
+  ```git remote add origin <remoteServerName>```
+  
+- To create local copy of remote repository: 
+
+  ```git clone username@host:/path/to/repository```
   
 - To delete origin connection locally: 
 
