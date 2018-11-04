@@ -3,6 +3,12 @@
 - To start off in a folder: 
 
   ```git init```
+  
+- Set your identity to be attached to your commits: 
+
+  ```git config --global user.name "Satyajit Das"```
+  
+  ```git congig --global user.email emailtovamos@gmail.com```
 
 - To see commit history:
 
