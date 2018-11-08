@@ -60,3 +60,9 @@
   
   This can be useful in a following scenario: 
   Let's say you committed something directly in `master` branch in your local repository only to find out later that you can't push it directly in the remote master branch since it is restricted. In that case you use the above command to undo the commit, then you can create another branch by doing `git checkout -b feature/test` and THEN push it: `git push --set-upstream origin feature/test`. After this you can create a pull request to merge into master branch.
+  
+- To only include one particular commit of another branch without having to merge the two branches: 
+
+  ```git cherry-pick 33e19bf662a654249e9772ba7e8323f761f7c0b5``` 
+  
+  ```git cherry-pick <commitnumber>```
