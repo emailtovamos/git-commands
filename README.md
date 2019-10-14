@@ -66,3 +66,11 @@
   ```git cherry-pick 33e19bf662a654249e9772ba7e8323f761f7c0b5``` 
   
   ```git cherry-pick <commitnumber>```
+  
+- To save work which you aren't ready to commit yet: 
+
+  ```git stash```
+
+  To get back the work:
+  
+  ```git stash pop```
